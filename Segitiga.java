@@ -14,6 +14,7 @@ public class Segitiga extends BangunDatar{
     float tinggi;
     float sisiMiring;
     
+    @Override
      float Luas(){
         float luas = alas*tinggi/2;
         System.out.println("Luas Segitiga = " + luas);

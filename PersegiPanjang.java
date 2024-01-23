@@ -12,6 +12,7 @@ public class PersegiPanjang extends BangunDatar {
     float panjang;
     float lebar;
     
+    @Override
      float Luas(){
         float luas = panjang*lebar;
         System.out.println("Luas Persegi Panjang = " + luas);

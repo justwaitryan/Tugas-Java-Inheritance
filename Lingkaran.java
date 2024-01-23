@@ -10,6 +10,7 @@ package inheritance;
  */
 public class Lingkaran extends BangunDatar {
     float r;
+    @Override
      float Luas(){
         float luas = r*r*22/7;
         System.out.println("Luas Lingkaran = " + luas);

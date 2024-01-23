@@ -11,6 +11,7 @@ package inheritance;
 public class Persegi extends BangunDatar{
     float sisi;
     
+    @Override
     float Luas(){
         float luas = sisi*sisi;
         System.out.println("Luas Persegi = " + luas);
